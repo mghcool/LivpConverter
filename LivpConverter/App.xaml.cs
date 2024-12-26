@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using ImageMagick;
 
 namespace LivpConverter
 {
@@ -9,6 +10,11 @@ namespace LivpConverter
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            MagickNET.Initialize();
+            InitializeComponent();
+        }
     }
 
 }
