@@ -11,7 +11,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ImageMagick;
 
-namespace LivpConverter
+namespace LivpConverter.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
