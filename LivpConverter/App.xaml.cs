@@ -2,6 +2,7 @@
 using System.Data;
 using System.Windows;
 using ImageMagick;
+using Application = System.Windows.Application;
 
 namespace LivpConverter
 {
